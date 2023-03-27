@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: auth-configmap
+data:
+  VICO_MYSQL_HOST: host.minikube.internal
+  VICO_MYSQL_USER: vid_user
+  VICO_MYSQL_DB: vid_conv_dev_db
+  VICO_MYSQL_PORT: "3306"
+
